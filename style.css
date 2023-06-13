@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.nav--title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav--title h2 {
+  color: #dae200;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: black;
+}
+.navbar-brand img {
+  width: 300px;
+  height: 100px;
+}
+
+h1 {
+  color: #dae200;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(56, 55, 55);
+  border-radius: 20px;
+  padding: 10px;
+}
+.check-point {
+  padding: 0px 150px;
+}
+
+.consigna p {
+  font-size: 1.5rem;
+  padding: 20px 100px;
+}
+.require {
+  padding: 20px 100px;
+}
